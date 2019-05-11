@@ -18,6 +18,8 @@
 3. Set up stack or setup GHC -> `stack setup`
 4. Execute program -> `stack exec hello-world`
 5. Run program -> `stack runghc Main.hs`
+6. Interactive for GHC -> `stack ghci`
+7. Exit interactive mode -> `:quit`
 
 
 ### You can read more on Haskell platform
