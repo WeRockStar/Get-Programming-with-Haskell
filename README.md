@@ -1,4 +1,8 @@
-# Source Code learning from Get Programming with Haskell Book
+# Source Code from Get Programming with Haskell Book
+
+## Visual Studio Code plugin
+- `Haskero`
+* <a href="https://github.com/rainbyte/haskell-ide-chart"> Haskell editor/IDE support</a>
 
 ## Install Stack 
 0. brew update
