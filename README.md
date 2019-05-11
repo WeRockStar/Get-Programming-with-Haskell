@@ -21,5 +21,5 @@
 6. Interactive for GHC -> `stack ghci`
 7. Exit interactive mode -> `:quit`
 
-
-### You can read more on Haskell platform
+### Read More
+<a href="https://docs.haskellstack.org/en/stable/README/">Haskell platform </a>
