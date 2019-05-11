@@ -11,3 +11,6 @@ main = do
     -- Lambda functions (\x -> x) 4
     let x = (\x -> x) 30
     print x
+    -- (x y) is an function agruments and 2,2 is an function input parameters
+    let summation = (\x y -> x + y) 2 2
+    print summation
