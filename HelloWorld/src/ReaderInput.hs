@@ -1,4 +1,6 @@
 main :: IO()
+
+toPart recipient = "Dear " ++ recipient ++ ",\n"
 main = do
     print "Who is the email for?"
     recipient <- getLine
@@ -6,4 +8,4 @@ main = do
     title <- getLine
     print "Who is Author?"
     author <- getLine
-    print ("Dear " ++ recipient ++ ",\n" ++ "Thank for buying " ++ title ++ "\nthanks, \n" ++ author)
+    print (toPart recipient ++ "Thank for buying " ++ title ++ "\nthanks, \n" ++ author)
