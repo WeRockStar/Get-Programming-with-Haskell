@@ -5,3 +5,6 @@ Functions/src/*.o
 List/.stack-work
 List/src/*.o
 List/src/*.hi
+Resursive/.stack-work
+Resursive/*.io
+Resursive/*.hi
