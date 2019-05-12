@@ -15,4 +15,6 @@ ifEvenInc = genIfEven inc
 mapOver x = (\x -> map (+ 1) x)
 main = do
     print (genIfEven inc 9)
+    print (sum (filter even [1,2,3,4,5]))
+    print ((+) 1 2)
     
