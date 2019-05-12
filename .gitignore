@@ -2,3 +2,6 @@ HelloWorld/.stack-work
 Functions/.stack-work
 Functions/src/*.hi
 Functions/src/*.o
+List/.stack-work
+List/src/*.o
+List/src/*.hi
