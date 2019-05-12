@@ -8,11 +8,11 @@ inc n = n + 1
 double n = n * 2
 square n = n ^ 2
 
--- closure
+-- closure, capure f inside lambda function
 genIfEven f = (\x -> ifEven f x)
 
 ifEvenInc = genIfEven inc
-
-
+mapOver x = (\x -> map (+ 1) x)
 main = do
     print (genIfEven inc 9)
+    
