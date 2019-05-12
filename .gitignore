@@ -1,2 +1,4 @@
 HelloWorld/.stack-work
 Functions/.stack-work
+Functions/src/*.hi
+Functions/src/*.o
