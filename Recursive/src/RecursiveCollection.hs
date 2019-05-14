@@ -30,6 +30,10 @@ seque n = if n == 1
 fibonacci 0 = 0
 fibonacci 1 = 1
 fibonacci n = fibonacci (n-1) + fibonacci (n-2)
+fibo n = if n < 2
+    then n
+    else fibo (n-1) + fibo (n-2)
+
 main = do 
     print (myLength [])
     print (myLength [1])
@@ -46,3 +50,4 @@ main = do
 
     print (fibonacci 2)
     print (fibonacci 7)
+    print (fibo 7)
