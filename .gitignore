@@ -9,3 +9,7 @@ Recursive/.stack-work
 Recursive/src/*.io
 Recursive/src/*.hi
 Recursive/src/*.o
+HOF/.stack-work
+HOF/src/*.hi
+HOF/src/*.o
+HOF/src/*.io
